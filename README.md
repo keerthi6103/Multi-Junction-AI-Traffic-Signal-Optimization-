@@ -13,8 +13,11 @@ Urban traffic congestion is a major problem in many cities. Traditional traffic 
 This project introduces an **AI-based adaptive traffic signal system** that:
 
 • Detects vehicles using **YOLOv8 object detection**
+
 • Counts vehicles in **four directions (North, South, East, West)**
+
 • Dynamically assigns **green signal timing based on traffic density**
+
 • Coordinates signals across **multiple junctions** to prevent downstream congestion
 
 The system helps improve **traffic flow efficiency and reduce waiting time**.
@@ -111,31 +114,8 @@ Output includes:
 
 ---
 
-# 📂 Project Structure
 
-AI-Traffic-Signal-System
 
-main.py → Streamlit application
-requirements.txt → Python dependencies
-README.md → Project documentation
-yolov8n.pt → YOLOv8 model file
-sample_images/ → Example traffic images
-
----
-
-# ⚙️ Installation
-
-Clone the repository
-
-git clone https://github.com/yourusername/AI-Traffic-Signal-System.git
-
-Navigate into the project folder
-
-cd AI-Traffic-Signal-System
-
-Install dependencies
-
-pip install -r requirements.txt
 
 
 # 🛠 Technologies Used
