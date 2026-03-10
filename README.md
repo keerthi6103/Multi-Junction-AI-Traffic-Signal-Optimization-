@@ -6,7 +6,7 @@ The system analyzes traffic density from uploaded junction images and intelligen
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 Urban traffic congestion is a major problem in many cities. Traditional traffic signals operate using **fixed timers**, which do not adapt to real-time traffic conditions.
 
@@ -21,24 +21,24 @@ The system helps improve **traffic flow efficiency and reduce waiting time**.
 
 ---
 
-# 🧠 System Workflow
+#  System Workflow
 
-1️⃣ User uploads traffic images for multiple junctions
+1️ User uploads traffic images for multiple junctions
 
-2️⃣ YOLOv8 detects vehicles in the images
+2️ YOLOv8 detects vehicles in the images
 
-3️⃣ Vehicles are categorized into directional lanes:
+3️ Vehicles are categorized into directional lanes:
 
 * North
 * South
 * East
 * West
 
-4️⃣ Vehicle counts are calculated for each direction
+4️ Vehicle counts are calculated for each direction
 
-5️⃣ The AI logic computes optimal **green and red signal durations**
+5️ The AI logic computes optimal **green and red signal durations**
 
-6️⃣ Signal timings are coordinated between junctions to prevent congestion
+6️ Signal timings are coordinated between junctions to prevent congestion
 
 ---
 
@@ -82,7 +82,7 @@ This ensures safe and realistic traffic signal behavior.
 
 ---
 
-# 🔄 Multi-Junction Coordination
+#  Multi-Junction Coordination
 
 The system supports **downstream traffic coordination**.
 
@@ -94,7 +94,7 @@ This mimics how **smart city traffic systems coordinate signals** across interse
 
 ---
 
-# 🖥 System Interface
+#  System Interface
 
 The system is built using **Streamlit**, which provides an interactive web interface.
 
@@ -137,21 +137,6 @@ Install dependencies
 
 pip install -r requirements.txt
 
----
-
-# ▶️ Run the Application
-
-Run the Streamlit application using:
-
-streamlit run main.py
-
-After running, open the browser link shown in the terminal:
-
-http://localhost:8501
-
-Upload two junction images to analyze traffic and compute signal timings.
-
----
 
 # 🛠 Technologies Used
 
